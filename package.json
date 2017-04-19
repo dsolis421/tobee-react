@@ -1,0 +1,24 @@
+{
+  "name": "tobee-react",
+  "version": "1.0.0",
+  "description": "React version of pet project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsolis421/tobee-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsolis421/tobee-react/issues"
+  },
+  "homepage": "https://github.com/dsolis421/tobee-react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
