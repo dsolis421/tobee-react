@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import $ from 'jquery';
+import ShelterSearchResults from './ShelterSearchResults';
 
 class ShelterSearch extends Component {
   constructor() {
@@ -41,7 +42,7 @@ class ShelterSearch extends Component {
           className="fa fa-search"
           onClick={() => this.getSheltersByZip(this.state.shelterSearchText)}></span>
         <span>Powered by <a href="www.petfinder.com" target="blank">Petfinder</a></span>
-        {this.state.returnedShelters.map(shelter => <h3 key={shelter.id.$t}>{shelter.name.$t}</h3>)}
+        <ShelterSearchResults returnedShelters={this.state.returnedShelters} />
       </div>
     );
   }
